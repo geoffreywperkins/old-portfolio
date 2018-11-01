@@ -20,26 +20,71 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
-          <h3 class="masthead-brand">Cover</h3>
+          <h3 class="masthead-brand">Geoffrey Perkins</h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link" href="index.html">Home</a>
             <a class="nav-link active" href="#">Experience</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </nav>
         </div>
       </header>
 
       <main role="main" class="inner cover">
-        <h1 class="cover-heading">Experience</h1>
-        <p class="lead">I'm a computer science student who's passionate about learning more about programming and development. Currently I'm pursuing a Software Development Internship in Summer 2019 that will challenge me in new ways to grow and learn new things. In my free time, I've been exploring TensorFlow and web development with Bootstrap and jQuery.</p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-        </p>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="carousel-caption text-left">
+                  <h1>Teaching Assistant</h1>
+                  <p>Taught a section of 20 students every week in Python in the Introduction to Computer Science class</p>
+                  <p>Prepared lecture materials for a short lecture before leading the students through a weekly laboratory exercise</p>
+                  <p>Held help-room hours for students each week, during which I answered questions on the weeks material, exercises, and projects</p>
+                  <p>Created worksheets for students to gain a better understanding of the materials for each week</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="carousel-caption text-left">
+                  <h1>Undergraduate Researcher</h1>
+                  <p>Wrote automated test cases in Python for the AvidaEd project to prevent regression when new features are added</p>
+                  <p>Searched for bugs in the AvidaEd program and reported them to the team supervisor</p>
+                  <p>Assisted in the development of the AvidaEd program, an educational tool to assist teaching about evolution</p>
+                  <p>Categorized survey data for the Scientific Virtues project</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="carousel-caption text-left">
+                  <h1>Undergraduate Researcher</h1>
+                  <p>Wrote automated test cases in Python for the AvidaEd project to prevent regression when new features are added</p>
+                  <p>Searched for bugs in the AvidaEd program and reported them to the team supervisor</p>
+                  <p>Assisted in the development of the AvidaEd program, an educational tool to assist teaching about evolution</p>
+                  <p>Categorized survey data for the Scientific Virtues project</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </main>
 
       <footer class="mastfoot mt-auto">
         <div class="inner">
-          <p>footer.</p>
+          <p><a href="mailto:witherin@msu.edu">geoffrey.w.perkins@gmail.com</a></p>
         </div>
       </footer>
     </div>
